@@ -1,0 +1,27 @@
+## Build (Derleme) Sonuçları ##
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio Geçici Dosyaları (Hata aldığın .vs klasörü) ##
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+
+## JetBrains / Rider Dosyaları (Loglarda görünen .idea klasörü) ##
+.idea/
+*.sln.iml
+
+## VS Code ##
+.vscode/
+
+## Yayınlama (Publish) Dosyaları ##
+Properties/PublishProfiles/
+
+## Windows ve Sistem Dosyaları ##
+Thumbs.db
+.DS_Store
+
+## Test Sonuçları ##
+TestResults/
