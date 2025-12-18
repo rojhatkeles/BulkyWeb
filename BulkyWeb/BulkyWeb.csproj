@@ -9,12 +9,20 @@
 	<ItemGroup>
 	  <Compile Remove="bin\**" />
 	  <Compile Remove="obj\**" />
+	  <Compile Remove="wwwroot\images\NewFolder1\**" />
+	  <Compile Remove="wwwroot\images\product\**" />
 	  <Content Remove="bin\**" />
 	  <Content Remove="obj\**" />
+	  <Content Remove="wwwroot\images\NewFolder1\**" />
+	  <Content Remove="wwwroot\images\product\**" />
 	  <EmbeddedResource Remove="bin\**" />
 	  <EmbeddedResource Remove="obj\**" />
+	  <EmbeddedResource Remove="wwwroot\images\NewFolder1\**" />
+	  <EmbeddedResource Remove="wwwroot\images\product\**" />
 	  <None Remove="bin\**" />
 	  <None Remove="obj\**" />
+	  <None Remove="wwwroot\images\NewFolder1\**" />
+	  <None Remove="wwwroot\images\product\**" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -34,7 +42,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="wwwroot\images\product\" />
+	  <Folder Include="wwwroot\images\products\" />
 	</ItemGroup>
 
 </Project>
